@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  height: 100vh;
+  font-family: Inter, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+a {
+  color: #ff4b4b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #df0707;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  border-radius: 50px;
+  border: 3px solid;
+  background-color: transparent;
+}
+
+input {
+  width: 200px;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  padding: 5px 15px;
+  transition: border-color 0.3s;
+  margin: 0 15px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+  border-color: white;
+}
+
+button {
+  cursor: pointer;
+  color: #ff4b4b;
+  border-color: #ff4b4b;
+  padding: 5px 25px;
+  margin: 0 15px;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  border-color: #df0707;
+  background-color: #df0707;
+  color: white;
+}
+
+#input {
+  margin-bottom: auto;
+}
+
+#table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+#table::-webkit-scrollbar {
+  width: 10px;
+}
+
+#table::-webkit-scrollbar-track {
+  background-color: rgba(7, 7, 7, 0.25);
+  border-radius: 50px;
+}
+
+#table::-webkit-scrollbar-thumb {
+  background-color: rgba(7, 7, 7, 0.5);
+  border-radius: 10px;
+}
+
+#matrix {
+  display: grid;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  margin-right: 100px;
+}
+
+#matrix div {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  color: #070707;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#matrix div.main {
+  background-color: rgba(255, 75, 75, 0.5);
+}
+
+#matrix div.path {
+  background-color: rgba(75, 255, 90, 0.5);
+  color: #4bff5a;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* span {
+  display: block;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 130%;
+  margin-bottom: 100px;
+} */
+
+/* a {
+  display: block;
+  font-size: 30px;
+  text-decoration: none;
+  color: #ff4b4b;
+  margin-bottom: 30px;
+  transition: color 0.2s;
+} */
+
+/* a:hover {
+  color: #ff0000;
+} */
